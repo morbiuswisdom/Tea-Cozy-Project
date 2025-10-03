@@ -1,0 +1,171 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2, h4{
+    margin-block: 0;
+    opacity: 0.9;
+}
+
+/* ========================================================================= */
+
+/* header Styles */
+header{
+    width: 100%; 
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0; 
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px !important;
+    opacity: 0.9;
+}
+
+/* Navigation Menu Styles */
+ul.navigationMenu{
+    list-style: none;
+    display: flex;
+    gap: 24px; 
+    margin-right: 10px !important;
+}
+
+/* Navigation Menu List styles */
+.navigationMenu li{
+    display: inline;
+    color: seashell; 
+    text-decoration: none;
+}
+
+.navigationMenu li a{
+    color: seashell;
+    cursor: pointer; 
+}
+
+/* ========================================================================= */
+
+/* Styles for the Hero section that contains the Our Mission text */
+.heroSection{
+    background-image: url("./Images/img-mission-background.webp");
+    height: 700px;
+    width: 1200px; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.heroText{
+    background-color: black; 
+    width: 100%; 
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* ========================================================================= */
+
+/* Styles for the Tea of the Month Section with Image Containers */
+.teaOfTheMonth{
+    display: flex;
+    flex-direction: column; 
+    gap: 24px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 48px;
+    
+}
+
+.teaImagesDiv{
+    display: flex;
+    justify-content: center;  
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 24px;
+}
+
+.teaImageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.teaImageContainer img{
+    width:300px;
+    height:200px;  
+}
+
+/* ========================================================================= */
+
+
+/* Styles for the locations section */
+.locationsSection{
+    height: 500px;
+    width: 1200px;
+    background-image: url("./Images/img-locations-background.webp");
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.locationContainersDiv{
+    display: flex;
+    gap: 40px;
+}
+
+.locationContainer{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 24px;
+    gap: 24px;
+}
+
+
+/* ========================================================================= */
+
+/* Styles for the Contact Section */
+
+
+.contacts{
+    height: 200px;
+    padding: 48px 0 0 0;
+    opacity: 0.9;
+}
+
+
+/* ========================================================================= */
+/* Styles for the footer Section */
+footer{
+    opacity: 0.9;
+    font-size: 16px;
+    text-align: left;
+    padding: 0 20px;
+}
+
+footer a{
+    color: white;
+    cursor: pointer;
+}
